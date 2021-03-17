@@ -680,7 +680,7 @@
     }
   },
   "ioConfig": {
-    "topic": "<env>.events.log",
+    "topic": "<env>.druid.events.log",
     "consumerProperties": {
       "bootstrap.servers": "broker_ip:broker_port"
     },

@@ -138,7 +138,7 @@
     }
   },
   "ioConfig": {
-    "topic": "{{env}}.events.error",
+    "topic": "{{env}}.telemetry.error",
     "consumerProperties": {
       "bootstrap.servers": "{{kafka_brokers}}"
     },
